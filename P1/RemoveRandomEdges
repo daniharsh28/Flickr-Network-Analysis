@@ -1,0 +1,8 @@
+import csv
+import time
+import operator
+import matplotlib.pyplot as plt
+import snap
+import random
+
+reader = csv.reader(open('D:\\AnonymizedEdgeList.csv','r'))

@@ -1,0 +1,15 @@
+clear all;
+load adj;
+indeg = sum(adj);
+[in ,ind] = sort(indeg, 'descend');
+in = in';
+ind = ind';
+disp('Node with Highest Indegree');
+disp(in(1));
+disp(ind(1));
+disp('Node with second Highest Indegree');
+disp(in(2));
+disp(ind(2));
+disp('Node with third highest Indegree');
+disp(in(3));
+disp(ind(3));
