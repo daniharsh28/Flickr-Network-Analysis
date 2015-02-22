@@ -12,8 +12,8 @@ import json
 
 class Crawler:
         seedUrl = ''
-        apiKey = 'baadf1d312ede47ad550ea25d68b0c3a'
-        apiSecret = 'a9443794da982105'
+        apiKey = ''
+        apiSecret = ''
         flickrClient=flickrapi.FlickrAPI(apiKey,apiSecret)
 
 
