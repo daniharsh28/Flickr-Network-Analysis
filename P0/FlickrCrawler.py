@@ -51,7 +51,7 @@ class Crawler:
                     # if len(contacts) > 700 :
                     #    jumpedcontacts = contacts[:700:1]
                     #else:
-                #    jumpedcontacts = contacts[:len(contacts):1]
+                    #jumpedcontacts = contacts[:len(contacts):1]
                     for contact in contacts: #jumpedcontacts
                         username.append([contact['username'],contact['nsid']])
                     page = page+1
